@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 250px;
+  height: 200vh;
+  background-color: #ffffff;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  height: 40vh;
+  background-color: #ffffff;
+  position: fixed;
+  top: 200px;
+  overflow-y: scroll;
+}
+
+a {
+  color: black;
+}
+
+.sidebar a:hover .ic1 {
+  filter: invert(20%) sepia(100%) saturate(7495%) hue-rotate(335deg) brightness(102%) contrast(104%);
+}
+
+.sidebar .active .ic1 {
+  filter: invert(20%) sepia(100%) saturate(7495%) hue-rotate(335deg) brightness(102%) contrast(104%);
+}
+
+.sidebar a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  margin-left: 20px;
+  position: relative;
+}
+
+.sidebar a:hover {
+  margin-top: 10px;
+  color: rgb(255, 0, 85);
+  background-color: rgb(251, 198, 216);
+  border-radius: 10px;
+}
+
+#profile {
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  top: 70px;
+  left: 65px;
+}
+
+.active {
+  background-color: rgb(251, 198, 216);
+  color: rgb(255, 0, 85);
+  border-radius: 10px;
+}
+
+.sidebar .ic1 {
+  position: relative;
+  width: 25px;
+  height: 20px;
+  margin-right: 10px;
+  top: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #cccccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(223, 49, 107);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(223, 49, 107);
+}
+
+.blank-page {
+  margin-left: 100px;
+  width: 100vw;
+  height: 110vw;
+  background-color: #f2f3f8;
+}
