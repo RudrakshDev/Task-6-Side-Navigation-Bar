@@ -3,7 +3,7 @@ A simple side navigation bar created for Task 6 using HTML and CSS.
 
 # Output
 
-![image](https://github.com/RudrakshDev/Task-6-Side-Navigation-Bar/assets/170597596/94336027-7dc6-4905-a2d8-a8f48cb2faef)
+![image](https://github.com/RudrakshDev/Task-6-Side-Navigation-Bar/assets/170597596/b11d2ecc-718a-44dc-b343-88d002c910ac)
 
 
 ## Contributing
